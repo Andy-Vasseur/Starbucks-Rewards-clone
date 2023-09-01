@@ -1,5 +1,45 @@
 .Hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
     min-height: 84.6vh;
     max-height: 84.6vh;
-    background-color: rgb(143, 216, 192);
+    background-color: $green-light-color;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../styles/assets/img/xl-hero-desktop_2021.webp");
+
+    h1 {
+        color: $black-light-color;
+        width: 25%;
+        text-transform: uppercase;
+        font-size: 6rem;
+    }
+
+    p {
+        margin: 2rem 0;
+        color: $black-light-color;
+        font-size: 1.8rem;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        color: $white-color;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-color: $green-starbucks-color;
+        transition: $transition-300;
+
+        &:hover {
+            background-color: $black-color;
+        }
+    }
 }
