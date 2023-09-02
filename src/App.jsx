@@ -1,4 +1,5 @@
 // Components
+import GettingStarted from "./components/GettingStarted"
 import Hero from "./components/Hero"
 import Navigation from "./components/Navigation,"
 
@@ -12,6 +13,7 @@ function App() {
         </div>
       </div>
       <Hero />
+      <GettingStarted />
     </div>
   )
 }

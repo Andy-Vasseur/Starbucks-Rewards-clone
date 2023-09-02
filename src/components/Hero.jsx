@@ -6,9 +6,7 @@ function Hero() {
             <a href="#">
                 Join now
             </a>
-            <p>Or
-                <span> join in the app </span>
-                for the best experience
+            <p>Or <span>join in the app</span> for the best experience
             </p>
         </div>
     )

@@ -4,6 +4,7 @@
 @import 'vars';
 @import 'components/navigation';
 @import 'components/hero';
+@import 'components/gettingstarted';
 
 // ==============================================================================================================================
 // GENERALS
@@ -19,11 +20,17 @@ body {
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
-    height: 150vh;
-    background-color: $ceramic-color;
+    height: 200vh;
+    font-size: 1.6rem;
+    letter-spacing: -0.01rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "calt";
+    background-color: $black-color;
 }
 
 .App {
