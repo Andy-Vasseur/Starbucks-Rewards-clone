@@ -1,4 +1,5 @@
 // Components
+import GetFavorites from "./components/GetFavorites"
 import GettingStarted from "./components/GettingStarted"
 import Hero from "./components/Hero"
 import Navigation from "./components/Navigation,"
@@ -14,6 +15,7 @@ function App() {
       </div>
       <Hero />
       <GettingStarted />
+      <GetFavorites />
     </div>
   )
 }

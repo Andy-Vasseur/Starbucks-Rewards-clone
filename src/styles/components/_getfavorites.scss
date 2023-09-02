@@ -1,0 +1,40 @@
+.GetFavorites {
+    background-color: $green-very-light-color;
+
+    &__stars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 540px;
+
+        &__number {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: .8rem;
+            padding-left: .8rem;
+            padding-right: .8rem;
+            padding-bottom: 1.6rem;
+            width: 100%;
+            border: none;
+
+            &:nth-child(even) {
+                background-color: rgb(114, 114, 167);
+            }
+
+            &:nth-child(odd) {
+                background-color: rgb(184, 110, 110);
+            }
+
+            p {
+                font-size: 2.4rem;
+                font-weight: 600;
+            }
+
+            span {
+                color: $gold-color;
+            }
+        }
+    }
+}
