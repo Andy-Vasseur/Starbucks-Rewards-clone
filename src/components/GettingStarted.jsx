@@ -33,7 +33,7 @@ function GettingStarted() {
                     </div>
                     <h3 className="GettingStarted__steps__step__title">Earn Stars, get Rewards</h3>
                     <p className="GettingStarted__steps__step__text">
-                        As you earn Stars, you can redeem them for Rewards -like free food, drinksn and more. Start redeeming with as little as 25 Stars!
+                        As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars!
                     </p>
                 </div>
             </div>
